@@ -1,0 +1,10 @@
+{
+  "appenvironment": "testing.qa",
+  "database": "testing.qa",
+  "isenigma": false,
+  "browser": "firefox",
+  "DebugMode": false,
+  "delayinseconds": 1,
+  "rerun": false,
+  "slacknotifications": false
+}

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\src\qatests\dlls\ExampleTests2.dll" total="6" errors="0" failures="2" not-run="1" inconclusive="0" ignored="1" skipped="0" invalid="0" date="2017-04-27" time="13:50:27">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.8745" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.4\bin" machine-name="DESKTOP-AVIC0NS" user="Damien" user-domain="DESKTOP-AVIC0NS" />
+  <culture-info current-culture="en-GB" current-uiculture="en-GB" />
+  <test-suite type="Assembly" name="C:\src\qatests\dlls\ExampleTests2.dll" executed="True" result="Failure" success="False" time="0.144" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="ExampleTests2" executed="True" result="Failure" success="False" time="0.136" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="TestSuites" executed="True" result="Failure" success="False" time="0.136" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="another_new_suite" executed="True" result="Failure" success="False" time="0.052" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="Testsuite" executed="True" result="Failure" success="False" time="0.051" asserts="0">
+                    <results>
+                      <test-case name="ExampleTests2.TestSuites.another_new_suite.Testsuite.LoginTest" description="This test will login to the application" executed="True" result="Success" success="True" time="0.013" asserts="1">
+                        <categories>
+                          <category name="Sanity" />
+                          <category name="Full" />
+                        </categories>
+                      </test-case>
+                      <test-case name="ExampleTests2.TestSuites.another_new_suite.Testsuite.LogoutTest" description="This test will test the logout functionality" executed="True" result="Failure" success="False" time="0.023" asserts="1">
+                        <categories>
+                          <category name="Sanity" />
+                          <category name="Full" />
+                        </categories>
+                        <failure>
+                          <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                          <stack-trace><![CDATA[at ExampleTests2.TestSuites.another_new_suite.Testsuite.LogoutTest() in C:\src\qatests\ExampleTests2\ExampleTests\TestSuites\another_new_suite\testsuite.cs:line 20
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="GoogleTestSuite" executed="True" result="Failure" success="False" time="0.004" asserts="0">
+                <results>
+                  <test-case name="ExampleTests2.TestSuites.GoogleTestSuite.ViewAccount" description="This will test that an existing user can view their account details" executed="True" result="Failure" success="False" time="0.002" asserts="1">
+                    <categories>
+                      <category name="Sanity" />
+                      <category name="Full" />
+                      <category name="Account" />
+                    </categories>
+                    <failure>
+                      <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                      <stack-trace><![CDATA[at ExampleTests2.TestSuites.GoogleTestSuite.ViewAccount() in C:\src\qatests\ExampleTests2\ExampleTests\TestSuites\GoogleTestSuite.cs:line 14
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="newtestsuite" executed="True" result="Success" success="True" time="0.015" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="newtestsuitesuite" executed="True" result="Success" success="True" time="0.014" asserts="0">
+                    <results>
+                      <test-case name="ExampleTests2.TestSuites.newtestsuite.newtestsuitesuite.AddUser" description="This will test that a user can be added to the system" executed="True" result="Success" success="True" time="0.000" asserts="1">
+                        <categories>
+                          <category name="Sanity" />
+                          <category name="Full" />
+                          <category name="User" />
+                        </categories>
+                      </test-case>
+                      <test-case name="ExampleTests2.TestSuites.newtestsuite.newtestsuitesuite.DeleteUser" description="This will test that an existing user can be deleted" executed="True" result="Success" success="True" time="0.000" asserts="1">
+                        <categories>
+                          <category name="Sanity" />
+                          <category name="Full" />
+                          <category name="User" />
+                        </categories>
+                      </test-case>
+                      <test-case name="ExampleTests2.TestSuites.newtestsuite.newtestsuitesuite.UpdateUser" description="This will test that an existing user can update their details" executed="True" result="Success" success="True" time="0.000" asserts="1">
+                        <categories>
+                          <category name="Sanity" />
+                          <category name="Full" />
+                          <category name="User" />
+                        </categories>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="YahooTestSuite" executed="True" result="Inconclusive" success="False" time="0.003" asserts="0">
+                <results>
+                  <test-case name="ExampleTests2.TestSuites.YahooTestSuite.AddFriends" description="This will test that an existing user can update their details" executed="False" result="Ignored">
+                    <categories>
+                      <category name="Sanity" />
+                      <category name="Full" />
+                    </categories>
+                    <reason>
+                      <message><![CDATA[This functionality has not been added to the application]]></message>
+                    </reason>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

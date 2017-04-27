@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="D:\yr4\Final_Year_Project\ExampleTests\ExampleTests\bin\Debug\ExampleTests.dll" total="3" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2017-02-06" time="19:54:38">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.8745" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.4\bin" machine-name="DESKTOP-AVIC0NS" user="Damien" user-domain="DESKTOP-AVIC0NS" />
+  <culture-info current-culture="en-GB" current-uiculture="en-GB" />
+  <test-suite type="Assembly" name="D:\yr4\Final_Year_Project\ExampleTests\ExampleTests\bin\Debug\ExampleTests.dll" executed="True" result="Success" success="True" time="43.269" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="ExampleTests" executed="True" result="Success" success="True" time="43.260" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="TestSuites" executed="True" result="Success" success="True" time="43.260" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="GoogleTestSuite" executed="True" result="Success" success="True" time="18.977" asserts="0">
+                <results>
+                  <test-case name="ExampleTests.TestSuites.GoogleTestSuite.TestSearchButton" description="this test does x,y and z" executed="True" result="Success" success="True" time="10.422" asserts="1">
+                    <categories>
+                      <category name="Search_Box" />
+                    </categories>
+                  </test-case>
+                  <test-case name="ExampleTests.TestSuites.GoogleTestSuite.TestTextSearchField" description="this test does x,y and z" executed="True" result="Success" success="True" time="8.530" asserts="1">
+                    <categories>
+                      <category name="Search_Field" />
+                    </categories>
+                  </test-case>
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="YahooTestSuite" executed="True" result="Success" success="True" time="24.277" asserts="0">
+                <results>
+                  <test-case name="ExampleTests.TestSuites.YahooTestSuite.TestTextSearchField" description="this test does x,y and z" executed="True" result="Success" success="True" time="24.275" asserts="1">
+                    <categories>
+                      <category name="Search_Field" />
+                      <category name="Test" />
+                    </categories>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
